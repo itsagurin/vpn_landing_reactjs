@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("../assets/fonts/Rubik-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../assets/fonts/Rubik-Regular.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+.feature {
+  margin-bottom: 26px;
+  gap: 16px;
+}
+.feature .feature-p {
+  color: rgb(43, 43, 43);
+  font-family: Rubik, serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: left;
+}
+
+.text-start {
+  max-width: 408px;
+}
+.text-start p {
+  color: rgb(90, 90, 90);
+  font-family: Rubik, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.text-start h2 {
+  color: rgb(43, 43, 43);
+  font-family: Rubik, serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  padding-bottom: 16px;
+}
+
+/*# sourceMappingURL=Features.css.map */

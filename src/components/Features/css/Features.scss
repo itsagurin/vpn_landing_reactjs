@@ -1,0 +1,39 @@
+@import "../../../styles/_fonts.scss";
+
+.feature{
+  margin-bottom: 26px;
+  gap: 16px;
+
+  .feature-p {
+    color: rgb(43, 43, 43);
+    font-family: Rubik, serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: left;
+  }
+}
+
+.text-start {
+  max-width: 408px;
+
+  p {
+    color: rgb(90, 90, 90);
+    font-family: Rubik, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    color: rgb(43, 43, 43);
+    font-family: Rubik, serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    padding-bottom: 16px;
+  }
+}
