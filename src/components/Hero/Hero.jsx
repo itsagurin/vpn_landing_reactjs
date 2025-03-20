@@ -3,6 +3,7 @@ import illustration from "../../assets/hero_Illustration.png";
 import users from "../../assets/users_badge.svg";
 import locations from "../../assets/locations_badge.svg";
 import servers from "../../assets/servers_badge.svg";
+import Button from "../Button/Button.jsx";
 
 export default function Hero() {
     return (
@@ -14,9 +15,7 @@ export default function Hero() {
                         Lorem ipsum dolor sit amet consectetur. Quis tortor gravida nibh arcu
                         id purus ullamcorper. Vel vel erat semper augue.
                     </p>
-                    <button className="btn btn-danger rounded-pill d-flex align-items-center justify-content-center">
-                        Get started
-                    </button>
+                    <Button content="Get Started" />
                 </div>
                 <img src={illustration} alt="illustration" />
             </div>

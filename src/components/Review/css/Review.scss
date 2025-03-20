@@ -1,0 +1,114 @@
+@import "../../../styles/_fonts.scss";
+
+.review-main-text {
+  max-width: 559px;
+
+  h2 {
+    color: #2b2b2b;
+    font-family: Rubik, serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  p {
+    color: #5a5a5a;
+    font-family: Rubik, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+  }
+}
+
+.feed-wr{
+  margin-top: 32px;
+
+  .comments{
+    display: flex;
+    column-gap: 18px;
+    margin-bottom: 31px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+
+    @media screen and (max-width: 1288px) {
+      padding: 0 18px;
+    }
+  }
+
+  .comments::-webkit-scrollbar {
+    display: none;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 1288px) {
+      max-width: 93%;
+      margin: 0 auto;
+    }
+
+    .scroll{
+      display: flex;
+      column-gap: 9px;
+      .current{
+        width: 58px;
+        height: 13px;
+        background-color: #f53838;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+
+      .dot{
+        width: 13px;
+        height: 13px;
+        background: #d8d8d8;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s;
+
+        &:hover {
+          background: #b8b8b8;
+        }
+      }
+    }
+
+    .arrows{
+      display: flex;
+      column-gap: 50px;
+
+      @media screen and (max-width: 537px) {
+        column-gap: 25px;
+      }
+
+      button{
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (max-width: 537px) {
+          width: 25px;
+          height: 25px;
+        }
+
+        img{
+          width: 28px;
+          height: 28px;
+
+          @media screen and (max-width: 537px) {
+            width: 14px;
+            height: 14px;
+          }
+        }
+      }
+      .left-arrow {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

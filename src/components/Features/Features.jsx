@@ -4,10 +4,10 @@ import mark from '../../assets/mark.svg'
 
 export default function Features() {
     return (
-        <div className="d-flex justify-content-between align-items-center">
+        <div className="d-flex justify-content-between align-items-center main-feature">
             <img src={Features_img}/>
             <div className="text-start">
-                <h2>We provide many
+                <h2 className="fw-bold">We provide many
                     features you can use</h2>
                 <p>Lorem ipsum dolor sit amet consectetur. Quis tortor gravida nibh arcu id purus
                     ullamcorper. Vel vel erat semper augue.</p>
@@ -18,7 +18,7 @@ export default function Features() {
                     </div>
                     <div className="d-flex align-items-center feature">
                         <img src={mark} alt="mark" className="me-2" />
-                        <p className="mb-0 a feature-p">Internet without borders</p>
+                        <p className="mb-0 feature-p">Internet without borders</p>
                     </div>
                     <div className="d-flex align-items-center feature">
                         <img src={mark} alt="mark" className="me-2" />
