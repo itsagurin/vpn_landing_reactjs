@@ -6,6 +6,8 @@ import Features from "../components/Features/Features.jsx";
 import Pricing from "../components/Pricing/Pricing.jsx";
 import Map from "../components/Map/Map.jsx";
 import Review from "../components/Review/Review.jsx";
+import Subscribe from "../components/Subscribe/Subscribe.jsx";
+import Footer from "../components/Footer/Footer.jsx";
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
         <Pricing />
         <Map />
         <Review />
+        <Subscribe />
+        <Footer />
       </div>
   )
 }

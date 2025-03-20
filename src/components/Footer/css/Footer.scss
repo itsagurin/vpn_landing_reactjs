@@ -1,0 +1,51 @@
+.footer {
+  &__logo {
+    width: 149px;
+    height: 36.2px;
+  }
+
+  &__description {
+    max-width: 340px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  &__copy {
+    font-size: 16px;
+  }
+
+  &__heading {
+    font-size: 18px;
+    color: #0b132a;
+    line-height: 30px;
+  }
+
+  &__link {
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .col-md-5 {
+      order: 2;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .col-md-7 {
+      order: 1;
+      width: 100%;
+      .row {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .col-md-4 {
+        flex: 1 1 33%;
+        max-width: 33%;
+        padding: 0 10px;
+      }
+    }
+  }
+}
